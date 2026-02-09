@@ -16,7 +16,7 @@ A minimal Trello-like backend in Go using MongoDB. Includes JWT-based auth, RBAC
 - MongoDB index creation on startup ([`databases.ConnectDB`](trello-lite/databases/mongodb.go), [`databases.CreateIndexes`](trello-lite/databases/mongodb.go))
 
 ## Repo layout (key files)
-- [trello-lite/main.go](trello-lite/main.go) — server routes and startup
+- [main.go](trello-lite/main.go) — server routes and startup
 - [trello-lite/databases/mongodb.go](trello-lite/databases/mongodb.go) — MongoDB connection & indexes (`databases.GetCollection`)
 - [trello-lite/middleware/auth.go](trello-lite/middleware/auth.go) — JWT auth middleware
 - [trello-lite/handlers/project-handler.go](trello-lite/handlers/project-handler.go)
