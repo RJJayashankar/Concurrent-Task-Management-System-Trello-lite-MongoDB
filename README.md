@@ -629,5 +629,4 @@ The server listens on :8080 (see [trello-lite/main.go](trello-lite/main.go)).
 - Index creation runs automatically on startup via [`databases.CreateIndexes`](trello-lite/databases/mongodb.go).
 - Responses use standardized format via [`utils.SendSuccess`](trello-lite/utils/response.go) and [`utils.SendError`](trello-lite/utils/response.go).
 
-## License
-Add a LICENSE file as needed.
+
